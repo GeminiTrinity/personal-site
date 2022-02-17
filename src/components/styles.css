@@ -1,0 +1,42 @@
+* {
+    background-color: black;
+}
+
+.home {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dropdown {
+    font-size: 100px;
+}
+.dropdown-menu {
+    background-color: black;
+
+}
+
+.nav-link {
+    color: white !important;
+    padding: 4%;
+}
+
+.dropdown-toggle::after {
+    display: none; 
+}
+
+.dropdown-link {
+    color: white;
+    font-size: 40px;
+    border-radius: 10px;
+    display: unset;
+    margin-left: 10%;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.dropdown-link:hover {
+    background: white;
+    color: black;
+}
