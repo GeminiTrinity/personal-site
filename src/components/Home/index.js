@@ -1,10 +1,8 @@
-import { Container } from 'reactstrap';
+// import { Container, Row, Col } from 'reactstrap';
 
 function Home() {
     return (
-        <Container>
-            <p>What would you like to know about?</p>
-        </Container>
+        <p>What would you like to know about?</p>
     )
 }
 
