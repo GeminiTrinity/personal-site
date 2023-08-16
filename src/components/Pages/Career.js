@@ -1,11 +1,11 @@
 import React from "react";
 
-function Sales() {
+function Career() {
     return (
         <div>
-            <Sales />
+            <Career />
         </div>
     );
 }
 
-export default Sales;
+export default Career;

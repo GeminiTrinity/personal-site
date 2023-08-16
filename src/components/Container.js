@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Home from "./Home/index";
 import Cinematography from "./Pages/Cinematography";
-import Sales from "./Pages/Sales";
+import Career from "./Pages/Career";
 import WebDesign from "./Pages/WebDesign";
 
 class Portfolio extends Component {
@@ -18,8 +18,8 @@ class Portfolio extends Component {
       return <Home />;
     } else if (this.state.currentPage === "Cinematography") {
       return <Cinematography />;
-    } else if (this.state.currentPage === "Sales") {
-      return <Sales />;
+    } else if (this.state.currentPage === "Career") {
+      return <Career />;
     } else if (this.state.currentPage === "WebDesign") {
       return <WebDesign />;
     } else {

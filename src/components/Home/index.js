@@ -10,8 +10,8 @@ function Home() {
                     <Navbar.Collapse>
                     <Nav>
                         <NavDropdown class="dropdown" title="What would you like to see?">
-                            <NavDropdown.Item className="dropdown-link" href="#">Cinematography</NavDropdown.Item>
-                            <NavDropdown.Item className="dropdown-link" href="#">Sales</NavDropdown.Item>
+                            <NavDropdown.Item className="dropdown-link" href="#">Career</NavDropdown.Item>
+                            <NavDropdown.Item className="dropdown-link" href="www.google.com">Cinematography</NavDropdown.Item>
                             <NavDropdown.Item className="dropdown-link" href="#">Web Design</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
