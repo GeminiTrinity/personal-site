@@ -3,7 +3,7 @@ import React from "react";
 function Cinematography() {
     return (
         <div>
-            <Cinematography />
+            This is the Cinematography page!!!!
         </div>
     );
 }

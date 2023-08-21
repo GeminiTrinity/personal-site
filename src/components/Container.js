@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Home from "../components/Home/index";
+import Home from "../components/Pages/Home";
 import Cinematography from "../components/Pages/Cinematography";
 import Career from "../components/Pages/Career";
 import WebDesign from "../components/Pages/WebDesign";
