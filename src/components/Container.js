@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import Home from "./Home/index";
-import Cinematography from "./Pages/Cinematography";
-import Career from "./Pages/Career";
-import WebDesign from "./Pages/WebDesign";
+import Home from "../components/Home/index";
+import Cinematography from "../components/Pages/Cinematography";
+import Career from "../components/Pages/Career";
+import WebDesign from "../components/Pages/WebDesign";
+import NavTabs from "./NavTabs";
 
 class Portfolio extends Component {
   state = {
@@ -30,6 +31,10 @@ class Portfolio extends Component {
   render() {
     return (
       <div>
+        <NavTabs
+          currentPage={this.state.currentPage}
+          handlePageChange={this.handlePageChange}
+        />
         {this.renderPage()}
       </div>
     );

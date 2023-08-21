@@ -1,9 +1,10 @@
 import React from "react";
+// import CareerPage from "../Career/index.js";
 
 function Career() {
     return (
         <div>
-            <Career />
+            This is the career page!!!!!
         </div>
     );
 }

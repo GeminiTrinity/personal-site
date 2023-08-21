@@ -1,23 +1,12 @@
 // import { Container, Row, Col } from 'reactstrap';
-import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
+// import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
+import React from "react";
+
 
 function Home() {
     return (
         <div class="home">
-            <Navbar className="NavDropDown">
-                <Container>
-                    <Navbar.Toggle />
-                    <Navbar.Collapse>
-                    <Nav>
-                        <NavDropdown class="dropdown" title="What would you like to see?">
-                            <NavDropdown.Item className="dropdown-link" href="#">Career</NavDropdown.Item>
-                            <NavDropdown.Item className="dropdown-link" href="www.google.com">Cinematography</NavDropdown.Item>
-                            <NavDropdown.Item className="dropdown-link" href="#">Web Design</NavDropdown.Item>
-                        </NavDropdown>
-                    </Nav>
-                    </Navbar.Collapse>
-                </Container>
-            </Navbar>
+          What would you like to see?
         </div>
     )
 }
