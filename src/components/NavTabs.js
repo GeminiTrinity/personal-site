@@ -21,11 +21,11 @@ function NavTabs(props) {
             <Col>
             <li className="nav-item">
               <a
-                href="#Cinematography"
-                onClick={() => props.handlePageChange("Cinematography")}
-                className={props.currentPage === "Cinematography" ? "nav-link active" : "nav-link"}
+                href="#VideoProduction"
+                onClick={() => props.handlePageChange("VideoProduction")}
+                className={props.currentPage === "VideoProduction" ? "nav-link active" : "nav-link"}
               >
-                Cinematography
+                Video Production
               </a>
             </li>
             </Col>

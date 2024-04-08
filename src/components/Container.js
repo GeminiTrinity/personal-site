@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Home from "../components/Pages/Home";
-import Cinematography from "../components/Pages/Cinematography";
+import VideoProduction from "./Pages/VideoProduction";
 import Career from "../components/Pages/Career";
 import WebDesign from "../components/Pages/WebDesign";
 import NavTabs from "./NavTabs";
@@ -17,8 +17,8 @@ class Portfolio extends Component {
   renderPage = () => {
     if (this.state.currentPage === "Home") {
       return <Home />;
-    } else if (this.state.currentPage === "Cinematography") {
-      return <Cinematography />;
+    } else if (this.state.currentPage === "VideoProduction") {
+      return <VideoProduction />;
     } else if (this.state.currentPage === "Career") {
       return <Career />;
     } else if (this.state.currentPage === "WebDesign") {
